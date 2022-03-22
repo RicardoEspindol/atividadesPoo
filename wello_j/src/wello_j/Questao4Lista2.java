@@ -2,7 +2,7 @@ package wello_j;
 
 import java.util.Random;
 
-public class primoNov {
+public class Questao4Lista2 {
 
 	public static void main(String[] args) {
 		Random aleat = new Random();

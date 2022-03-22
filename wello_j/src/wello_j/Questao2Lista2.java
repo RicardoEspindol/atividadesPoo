@@ -1,6 +1,6 @@
 package wello_j;
 import java.util.Scanner;
-public class media10n {
+public class Questao2Lista2 {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);

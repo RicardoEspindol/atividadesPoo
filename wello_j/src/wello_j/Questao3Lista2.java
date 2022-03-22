@@ -1,6 +1,6 @@
 package wello_j;
 import java.util.Random;
-public class array1 {
+public class Questao3Lista2 {
 
 	public static void main(String[] args) {
 		Random aleat = new Random();

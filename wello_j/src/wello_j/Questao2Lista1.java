@@ -1,7 +1,7 @@
 package wello_j;
 import java.util.Scanner;
 
-public class imc {
+public class Questao2Lista1 {
 
 	public static void main(String[] args) {
 		float peso, altura, imc;

@@ -1,7 +1,7 @@
 package wello_j;
 import java.util.Scanner;
 
-public class swhitchC {
+public class TesteSwC {
 
 	public static void main(String[] args) {
 		String opcao;

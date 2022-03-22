@@ -1,7 +1,7 @@
 package wello_j;
 import java.util.Scanner;
 
-public class paidafac {
+public class Questao5Lista1 {
 
 	public static void main(String[] args) {
 		int numero;

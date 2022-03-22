@@ -1,7 +1,7 @@
 package wello_j;
 import java.util.Scanner;
 
-public class numbersprint {
+public class Questao1Lista1 {
 
 	public static void main(String[] args) {
 		long longo;

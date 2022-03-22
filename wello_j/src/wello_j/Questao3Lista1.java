@@ -1,7 +1,7 @@
 package wello_j;
 import java.util.Scanner;
 
-public class trapeziunn {
+public class Questao3Lista1 {
 
 	public static void main(String[] args) {
 		float baseM,baseMn,altura,area;

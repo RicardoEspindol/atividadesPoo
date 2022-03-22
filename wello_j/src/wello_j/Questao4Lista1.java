@@ -1,7 +1,7 @@
 package wello_j;
 import java.util.Scanner;
 
-public class maiorImn {
+public class Questao4Lista1 {
 	
 	public static void main(String[] args) {
 		int num1,num2;
