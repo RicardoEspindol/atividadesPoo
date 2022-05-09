@@ -63,7 +63,7 @@ public class Programa {
 					p.adicionarCliente(client);
 					p.chamadaSalvar();
 				}catch(Exception e) {
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				
 				break;
@@ -83,7 +83,7 @@ public class Programa {
 				try {
 				System.out.println(p.localizarClienteCPF(cpfLC));
 				}catch (Exception e){
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				
 				break;
@@ -99,7 +99,7 @@ public class Programa {
 				p.removerCliente(cpf1RC);
 				p.chamadaSalvar();
 				}catch(Exception e) {
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				
 				
@@ -119,7 +119,7 @@ public class Programa {
 				temp.adicionarConta(account2);
 				p.chamadaSalvar();
 			}catch(Exception e) {
-				System.out.println(e.getMessage());
+				System.err.println(e.getMessage());
 			}
 			
 			
@@ -138,7 +138,7 @@ public class Programa {
 				for(Conta c : temp1)
 					System.out.println(c);
 				}catch(Exception e) {
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				
 				break;
@@ -158,7 +158,7 @@ public class Programa {
 				p1R.removerConta(c1R);
 				p.chamadaSalvar();
 				}catch(Exception e) {
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				break;
 				
@@ -181,7 +181,7 @@ public class Programa {
 				c1.depositarC(numeroCont, numero);
 				p.salvarDeposito();
 				}catch(Exception e){
-					System.out.println( e.getMessage());
+					System.err.println( e.getMessage());
 					
 				}
 				
@@ -206,7 +206,7 @@ public class Programa {
 				c2.sacarQuant(numeroConta2, valorSaque);
 				p.salvarSaque();}
 				catch(Exception e) {
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				break;
 				
@@ -226,7 +226,7 @@ public class Programa {
 					c4 = p4.localizarConta(numeroCont4);
 					System.out.println(" SALDO DA SUA CONTA = R$ "+ c4.consultaSaldo(numeroCont4));
 				}catch(Exception e) {
-					System.out.println(e.getMessage());
+					System.err.println(e.getMessage());
 				}
 				// ESSE AQUI EU FIZ MAIS TÁ DANDO ERRO NO LOCALIZAR CONTA LINHA ENCIMA DO TRY
 				
